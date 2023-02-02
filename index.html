@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+
+
+</head>
+<body>
+    <!-- Header container -->
+    <header>
+        <div class="mobile-container">
+            <nav class="navbar">
+                <img src="/images/RS-logo.png" class="nav-branding"></a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About me -->
+    
+    <div class="container">
+        <h2 class="text-center">About Me</h2>
+        <div class="detail-container">
+            <div>
+                <img class="my-photo"src="/images/my_photo.jpg" alt="my photo">
+
+                <h2>
+                    Roy solorzano Cervantes
+                </h2>
+                <h3 class="title">
+                    Junior Developer in training.
+                </h3>    
+            </div>
+            
+            <div class="about-me">
+                <p>
+                    Hello, I am Roy Solozano Cervantes 
+                </p>
+                <p>An innovative professional with experience
+                    in technical and fast-paced environments. </p>
+                <br>
+                <p>Now seeking for an opportunity within a forward-thinking organization
+                    operating within digital space where I can contribute to the growth of the company and continue to learn coding.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Projects -->
+    
+    <div class="projects">
+        <h2 class="text-center">My Projects</h2>
+        <div class="project-container">
+            <div class="first-project">
+                <h3 class="title-project">Rock, paper, scissors Game</h3>
+                <!-- <iframe src="/projects/1.project/HTML/project.html?embed=true" frameborder="0"></iframe> -->
+                <a href="/projects/1.project/HTML/project.html" target="_blank">
+                    <img class="project-picture" src="/images/rps.png" alt="rock, paper, scissor picture">
+                </a>
+            </div>
+
+            <div class="second-project">
+                <h3 class="title-project">My CV.html</h3>
+                <a href="/projects/2.project/HTML/MyCV.html" target="_blank">
+                    <img class="project-picture" src="/images/mycv.png" alt="my cv picture">
+                </a>
+            </div>
+
+            <div class="third-project">
+                <h3 class="title-project">CRUD DataBase Songs</h3>
+                <iframe src="https://replit.com/@RoysSolorzano/CRUD-DatabaseSongs?embed=true" frameborder="0"></iframe>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer container -->
+    <!-- <footer>
+        <h2 class="text-center">
+            Contact Me
+        </h2>
+        <div class="form-container">
+            <form action="">
+                <fieldset class="subform-container">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Enter your name...">
+
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Enter your last name...">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="eg: example@example.com">
+
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="5"></textarea>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </footer> -->
+
+    <!-- Social social-media -->
+    <div class="social-media">
+        <h2 class="text-center">
+            Contact Me
+        </h2>
+        <ul class="wrapper">
+            <li class="icon linkedin">
+                <span class="tooltip">Linkedin</span>
+                <span>
+                    <a href="https://www.linkedin.com/in/roy-solorzano-cervantes-b6196836/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </span>
+            </li>
+            <li class="icon github">
+                <span class="tooltip">Github</span>
+                <span>
+                    <a href="https://github.com/RoyCarlosSC" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </span>
+            </li>
+            <li class="icon codepen">
+                <span class="tooltip">CodePen</span>
+                <span>
+                    <a href="https://codepen.io/RoyCarlosSC" target="_blank">
+                        <i class="fa-brands fa-codepen"></i>
+                    </a>
+                </span>
+            </li>
+            <li class="icon email">
+                <span class="tooltip">Email</span>
+                <span>
+                    <a href="mailto:roycarlos_14@hotmail.com">
+                        <i class="fa-solid fa-at"></i>
+                    </a>
+                </span>
+            </li>
+        </ul>
+    </div>
+    <script src="/JS/index.js"></script>
+</body>
+</html>
